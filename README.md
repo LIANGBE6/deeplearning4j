@@ -31,6 +31,17 @@ For support for the project, please go over to https://community.konduit.ai/
 
 Deeplearning4J has quite a few dependencies. For this reason we only support usage with a build tool.
 
+```
+
+// https://mvnrepository.com/artifact/org.deeplearning4j/deeplearning4j-core
+implementation group: 'org.deeplearning4j', name: 'deeplearning4j-core', version: '1.0.0-M2.1'
+
+// https://mvnrepository.com/artifact/org.nd4j/nd4j-native-platform
+implementation group: 'org.nd4j', name: 'nd4j-native-platform', version: '1.0.0-M2.1'
+
+
+```
+
 ```xml
 <dependencies>
   <dependency>
